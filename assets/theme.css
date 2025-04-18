@@ -9879,6 +9879,27 @@ split-lines {
   overflow: hidden;
 }
 
+.variant-swatch {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.variant-swatch[data-color="Black"] {
+  background-color: #000000;
+}
+.variant-swatch[data-color="Grey"] {
+  background-color: #808080;
+}
+.variant-swatch[data-color="White"] {
+  background-color: #ffffff;
+  border: 1px solid #999;
+}
+
+
 /* Custom swatch colors for SKULPTBODY */
 .variant-swatch[data-color="Schwarz"] {
   background-color: #000000;
