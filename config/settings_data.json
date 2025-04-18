@@ -33,6 +33,7 @@
     "text_font": "din_next_n4",
     "show_page_transition": true,
     "heading_apparition": "split_fade",
+    "color_swatch_config": "Rot:#FF0000\n\nBlau:#0000FF\n\nGrün:#008000\n\nGelb:#FFFF00\n\nSchwarz:#000000\n\nWeiß:#FFFFFF\n\nGrau:#808080\n\nLila:#800080\n\nRosa:#FFC0CB\n\nOrange:#FFA500\n\nBraun:#A52A2A\n\nBeige:#F5F5DC\n\nTürkis:#40E0D0\n\nGold:#FFD700\n\nSilber:#C0C0C0",
     "product_color_display": "swatch",
     "product_info_alignment": "start",
     "checkout_accent_color": "#f0c417",
