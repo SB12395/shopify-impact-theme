@@ -96,7 +96,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"max-width: 800px; margin: 0 auto; padding-left: 20px; padding-right: 20px;\">\n    <h3 style=\"font-weight: bold; font-size: 2.5em; margin-bottom: 20px;\">VORBEREITUNG FÜR EINE NEUE ÄRA DES SELBSTVERTRAUENS.</h3>\n\n    <p style=\"margin-bottom: 20px;\">SKULPTBODY steht für eine Bewegung – ein Versprechen an jeden Mann, der sich selbst neu entdecken, sich von gesellschaftlichen Erwartungen befreien und eine zukunftsorientierte, selbstbewusste Haltung entwickeln will.</p>\n\n    <p>Bei SKULPTBODY geht es nicht nur darum, gut auszusehen – sondern auch darum, dich unaufhaltbar zu fühlen, mit mehr Selbstvertrauen durchs Leben zu gehen und in allen Bereichen deines Lebens heller zu strahlen.</p>\n</div>",
+        "liquid": "<div style=\"max-width: 800px; margin: 0 auto; padding-left: 20px; padding-right: 20px;\">\n    <h3 style=\"font-weight: bold; font-size: 2.5em; margin-bottom: 20px;\">EINE NEUE ÄRA DES SELBSTVERTRAUENS BEGINNT.</h3>\n\n    <p style=\"font-size: 0.9em; margin-bottom: 20px;\">SKULPTBODY steht für eine Bewegung – ein Versprechen an jeden Mann, der sich selbst neu entdecken, sich von gesellschaftlichen Erwartungen befreien und eine zukunftsorientierte, selbstbewusste Haltung entwickeln will.</p>\n\n    <p style=\"font-size: 0.9em;\">Bei SKULPTBODY geht es nicht nur darum, gut auszusehen – sondern auch darum, dich unaufhaltbar zu fühlen, mit mehr Selbstvertrauen durchs Leben zu gehen und in allen Bereichen deines Lebens heller zu strahlen.</p>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
