@@ -1266,14 +1266,4 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 
 {% endschema %}
 
-{% if product.options contains 'Color' %}
-  <div class="product__swatches">
-    <p><strong>Color:</strong></p>
-    {% for variant in product.variants %}
-      <label class="variant-swatch" data-color="{{ variant.option1 }}">
-        <input type="radio" name="id" value="{{ variant.id }}" style="display:none;">
-      </label>
-    {% endfor %}
-  </div>
-{% endif %}
 
