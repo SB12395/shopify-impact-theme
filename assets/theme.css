@@ -9885,3 +9885,8 @@ split-lines {
   opacity: 1 !important;
 }
 
+.template-product .page-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
