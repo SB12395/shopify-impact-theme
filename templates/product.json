@@ -44,6 +44,12 @@
           "disabled": true,
           "settings": {}
         },
+        "moon_bundle_app_block_LxFaxj": {
+          "type": "shopify://apps/moon-bundle/blocks/app-block/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
+          "settings": {
+            "moonbundle_selected_product": "skulptbody™-core-3-0"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -69,6 +75,7 @@
         "variant_picker",
         "liquid_QECX3N",
         "aov_bundle_upsell_offer_volume_PaRtTh",
+        "moon_bundle_app_block_LxFaxj",
         "badges",
         "payment_terms",
         "separator",
