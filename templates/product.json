@@ -38,6 +38,10 @@
             "liquid": "\"FREE SHIPPING INCLUDED\"PLACE HOLDER"
           }
         },
+        "aov_bundle_upsell_offer_volume_PaRtTh": {
+          "type": "shopify://apps/aov-bundle-upsell/blocks/offer-volume/0335d423-143c-4ad7-b224-99a1db74a9ee",
+          "settings": {}
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -81,6 +85,7 @@
         "judge_me_reviews_preview_badge_NrLwmU",
         "variant_picker",
         "liquid_QECX3N",
+        "aov_bundle_upsell_offer_volume_PaRtTh",
         "badges",
         "payment_terms",
         "separator",
