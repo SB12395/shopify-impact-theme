@@ -9879,4 +9879,9 @@ split-lines {
   overflow: hidden;
 }
 
+.product__variants, .product-form__input {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
 
