@@ -32,21 +32,15 @@
             "size_chart_page": ""
           }
         },
+        "liquid_QECX3N": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "\"FREE SHIPPING INCLUDED\"PLACE HOLDER"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
         },
         "payment_terms": {
           "type": "payment_terms",
@@ -82,9 +76,8 @@
         "title",
         "judge_me_reviews_preview_badge_NrLwmU",
         "variant_picker",
+        "liquid_QECX3N",
         "badges",
-        "price",
-        "rating",
         "payment_terms",
         "separator",
         "description",
