@@ -35,7 +35,7 @@
         "liquid_QECX3N": {
           "type": "liquid",
           "settings": {
-            "liquid": "\"FREE SHIPPING INCLUDED\"PLACE HOLDER"
+            "liquid": "<div style=\"display: flex; align-items: center; justify-content: center; margin: 40px 0;\">\n  <div style=\"flex: 1; height: 2px; background-color: black;\"></div>\n  <div style=\"padding: 0 20px; font-weight: bold; font-size: 1.3em; text-align: center;\">KOSTENLOSER VERSAND INKLUSIVE</div>\n  <div style=\"flex: 1; height: 2px; background-color: black;\"></div>\n</div>"
           }
         },
         "aov_bundle_upsell_offer_volume_PaRtTh": {
