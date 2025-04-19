@@ -34,12 +34,14 @@
         },
         "liquid_QECX3N": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
-            "liquid": "<div style=\"display: flex; align-items: center; justify-content: center; margin: 40px 0;\">\n  <div style=\"flex: 1; height: 2px; background-color: black;\"></div>\n  <div style=\"padding: 0 20px; font-weight: bold; font-size: 1.3em; text-align: center;\">KOSTENLOSER VERSAND INKLUSIVE</div>\n  <div style=\"flex: 1; height: 2px; background-color: black;\"></div>\n</div>"
+            "liquid": "<div style=\"display: flex; align-items: center; justify-content: center; flex-wrap: nowrap; margin: 40px 0;\">\n  <div style=\"flex-grow: 1; height: 2px; background-color: black; min-width: 30px;\"></div>\n  <div style=\"padding: 0 15px; font-weight: bold; font-size: 1.3em; text-align: center; white-space: nowrap;\">Kostenloser Versand inklusive</div>\n  <div style=\"flex-grow: 1; height: 2px; background-color: black; min-width: 30px;\"></div>\n</div>"
           }
         },
         "aov_bundle_upsell_offer_volume_PaRtTh": {
           "type": "shopify://apps/aov-bundle-upsell/blocks/offer-volume/0335d423-143c-4ad7-b224-99a1db74a9ee",
+          "disabled": true,
           "settings": {}
         },
         "badges": {
@@ -59,25 +61,6 @@
           "settings": {
             "collapse_content": false
           }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "aov_bundle_upsell_offer_fixed_CHTQW3": {
-          "type": "shopify://apps/aov-bundle-upsell/blocks/offer-fixed/0335d423-143c-4ad7-b224-99a1db74a9ee",
-          "settings": {}
         }
       },
       "block_order": [
@@ -89,22 +72,19 @@
         "badges",
         "payment_terms",
         "separator",
-        "description",
-        "quantity_selector",
-        "buy_buttons",
-        "aov_bundle_upsell_offer_fixed_CHTQW3"
+        "description"
       ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 35,
         "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
+        "mobile_media_size": "contained",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
+        "max_image_zoom_level": 1,
         "background": "",
         "background_gradient": "",
         "text_color": "",

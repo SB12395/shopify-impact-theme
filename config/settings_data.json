@@ -44,11 +44,6 @@
         "type": "shopify://apps/aov-bundle-upsell/blocks/aov-offer/0335d423-143c-4ad7-b224-99a1db74a9ee",
         "disabled": false,
         "settings": {}
-      },
-      "7054877461618660028": {
-        "type": "shopify://apps/moon-bundle/blocks/app-embed/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
