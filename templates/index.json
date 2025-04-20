@@ -15,13 +15,15 @@
         "slide-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_20_2025_04_00_28_PM.png",
+            "mobile_image": "shopify://shop_images/ChatGPT_Image_Apr_20_2025_04_00_28_PM.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "Fühl dich gut, sieh großartig aus.",
-            "heading_tag": "h1",
-            "button_text": "Jetzt einkaufen",
+            "title": "FÜHL DICH GUT, SIEH GROßARTIG AUS.",
+            "heading_tag": "h2",
+            "button_text": "JETZT EINKAUFEN",
             "button_link": "shopify://products/skulptbody™-core-3-0",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
@@ -66,6 +68,7 @@
         "image_qQkDYx": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_20_2025_04_00_28_PM.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",

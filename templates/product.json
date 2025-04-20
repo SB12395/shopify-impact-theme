@@ -85,85 +85,84 @@
         "input_text_color": ""
       }
     },
-    "multiple_images_with_text_mjkBar": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_RrBk9f": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_RrBk9f"
-      ],
+    "image_with_text_overlay_jGKYcD": {
+      "type": "image-with-text-overlay",
       "settings": {
         "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/B_-_F.png",
+        "mobile_image": "shopify://shop_images/B_-_F.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
-    "faq_EGWjhP": {
-      "type": "faq",
+    "tabs_U8krLb": {
+      "type": "tabs",
       "blocks": {
-        "item_cLaWFt": {
-          "type": "item",
+        "tab_hfVGfb": {
+          "type": "tab",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "WIE FUNKTIONIERT DAS SKULPTBODY™ CORE 3.0 ?",
+            "content": "<p>Unser Kompressionshemd formt gezielt den Oberkörper, indem es Druck auf Bauch, Brust und Rücken ausübt. Es glättet ungewollte Konturen und unterstützt gleichzeitig eine aufrechte Haltung.<br/><br/></p>",
+            "page": ""
           }
         },
-        "item_AzLzkQ": {
-          "type": "item",
+        "tab_pGTYmq": {
+          "type": "tab",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "WELCHE VORTEILE BIETET ES?",
+            "content": "<ul><li>Kaschiert sofort Fettpolster und Unebenheiten</li><li>Verbessert die Haltung durch Rückensupport</li><li>Bequem unter der Kleidung zu tragen</li><li>Ideal für Alltag, Arbeit oder Training<br/><br/><br/><br/></li></ul>",
+            "page": ""
           }
         },
-        "item_BM3idF": {
-          "type": "item",
+        "tab_CYdY6Q": {
+          "type": "tab",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "AUS WELCHEM MATERIAL BESTEHT ES?",
+            "content": "<p>Das SKULPTBODY™ CORE 3.0 besteht aus einer hochwertigen Mischung aus Nylon und Elasthan – atmungsaktiv, langlebig und elastisch genug für ganztägigen Komfort.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "tab_fyRgz9": {
+          "type": "tab",
+          "settings": {
+            "title": "FÄLLT DIE GRÖSSE NORMAL AUS?",
+            "content": "<p>Wir empfehlen, deine normale Größe zu wählen. Wenn du zwischen zwei Größen liegst oder eine besonders enge Kompression wünschst, wähle die kleinere Größe. Eine Größentabelle findest du weiter unten.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "tab_wACWgD": {
+          "type": "tab",
+          "settings": {
+            "title": "KANN ICH ES UNTER DER KLEIDUNG TRAGEN?",
+            "content": "<p>Ja! Das Design ist diskret und unsichtbar unter den meisten T-Shirts, Hemden oder Pullovern. Niemand wird merken, dass du es trägst.</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "item_cLaWFt",
-        "item_AzLzkQ",
-        "item_BM3idF"
+        "tab_hfVGfb",
+        "tab_pGTYmq",
+        "tab_CYdY6Q",
+        "tab_fyRgz9",
+        "tab_wACWgD"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
+        "content_size": "medium",
         "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
+        "title": "WAS MACHT SKULPTBODY™ EINZIGARTIG?",
+        "first_tab_open": false,
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "heading_gradient": ""
       }
     },
     "image_with_text_overlay_PeJJNH": {
@@ -198,12 +197,13 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
+        "image_size": "md",
+        "image": "shopify://shop_images/Thiscompressionshirtworks-ezgif.com-optimize_1.gif",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 54
       }
     },
     "1745160968da6c3447": {
@@ -330,8 +330,8 @@
   },
   "order": [
     "main",
-    "multiple_images_with_text_mjkBar",
-    "faq_EGWjhP",
+    "image_with_text_overlay_jGKYcD",
+    "tabs_U8krLb",
     "image_with_text_overlay_PeJJNH",
     "1745160968da6c3447",
     "text_with_icons_nc3cGr",
