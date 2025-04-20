@@ -20,7 +20,19 @@
         },
         "judge_me_reviews_preview_badge_NrLwmU": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {}
+        },
+        "doran_product_reviews_rating_widget_6zE94K": {
+          "type": "shopify://apps/doran-product-reviews/blocks/rating-widget/ca90c3ee-bc39-4c25-90cd-fdf0519c6d11",
+          "settings": {
+            "is_hide_detail": true,
+            "is_display_questions": false,
+            "class_name": "",
+            "is_hide_if_no_reviews": false,
+            "is_use_shopify_font": false,
+            "shopify_font": "din_next_n7"
+          }
         },
         "text_qWz9ek": {
           "type": "text",
@@ -63,6 +75,7 @@
       "block_order": [
         "title",
         "judge_me_reviews_preview_badge_NrLwmU",
+        "doran_product_reviews_rating_widget_6zE94K",
         "text_qWz9ek",
         "variant_picker",
         "buy_buttons_jBPgBN",
@@ -349,6 +362,37 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "1745187015abf489a9": {
+      "type": "apps",
+      "blocks": {
+        "doran_product_reviews_product_widget_t373Aa": {
+          "type": "shopify://apps/doran-product-reviews/blocks/product-widget/ca90c3ee-bc39-4c25-90cd-fdf0519c6d11",
+          "settings": {
+            "topPadding": 36,
+            "bottomPadding": 36,
+            "is_hide_if_no_reviews": false,
+            "is_use_shopify_font": false,
+            "shopify_font": "helvetica_n4"
+          }
+        }
+      },
+      "block_order": [
+        "doran_product_reviews_product_widget_t373Aa"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -359,6 +403,7 @@
     "image_with_text_overlay_PeJJNH",
     "1745160968da6c3447",
     "text_with_icons_nc3cGr",
-    "related-products"
+    "related-products",
+    "1745187015abf489a9"
   ]
 }
