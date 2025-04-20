@@ -43,6 +43,10 @@
             "payment_button_text_color": ""
           }
         },
+        "conversion_bear_trust_badges_widget_tEG6JT": {
+          "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
+          "settings": {}
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -67,6 +71,7 @@
         "judge_me_reviews_preview_badge_NrLwmU",
         "variant_picker",
         "buy_buttons_jBPgBN",
+        "conversion_bear_trust_badges_widget_tEG6JT",
         "badges",
         "payment_terms",
         "separator",
