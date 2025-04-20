@@ -37,17 +37,6 @@
     },
     "1745172883c889bec7": {
       "type": "apps",
-      "blocks": {
-        "gsc_countdown_timer_countdown_MR9xRA": {
-          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
-          "settings": {
-            "widget_id": ""
-          }
-        }
-      },
-      "block_order": [
-        "gsc_countdown_timer_countdown_MR9xRA"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,

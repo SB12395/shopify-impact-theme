@@ -20,19 +20,7 @@
         },
         "judge_me_reviews_preview_badge_NrLwmU": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
           "settings": {}
-        },
-        "doran_product_reviews_rating_widget_6zE94K": {
-          "type": "shopify://apps/doran-product-reviews/blocks/rating-widget/ca90c3ee-bc39-4c25-90cd-fdf0519c6d11",
-          "settings": {
-            "is_hide_detail": true,
-            "is_display_questions": false,
-            "class_name": "",
-            "is_hide_if_no_reviews": false,
-            "is_use_shopify_font": false,
-            "shopify_font": "din_next_n7"
-          }
         },
         "text_qWz9ek": {
           "type": "text",
@@ -75,7 +63,6 @@
       "block_order": [
         "title",
         "judge_me_reviews_preview_badge_NrLwmU",
-        "doran_product_reviews_rating_widget_6zE94K",
         "text_qWz9ek",
         "variant_picker",
         "buy_buttons_jBPgBN",
@@ -242,6 +229,119 @@
         "overlay_opacity": 54
       }
     },
+    "rich_text_B89PHt": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_49dy6k": {
+          "type": "subheading",
+          "settings": {
+            "text": "TESTE DIE SKULPTBODY™ CORE 3.0 OHNE RISIKO"
+          }
+        },
+        "heading_zXrAFq": {
+          "type": "heading",
+          "settings": {
+            "text": "UNSERE 60-TAGE-ERGEBNIS-GARANTIE",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_phh9cp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wenn du keine sichtbaren Ergebnisse siehst, erhältst du dein Geld vollständig zurück – und darfst das Produkt trotzdem behalten.</p><p>So sehr sind wir von der Wirkung der SKULPTBODY™ Veste überzeugt.<br/>Du hast wirklich nichts zu verlieren.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_49dy6k",
+        "heading_zXrAFq",
+        "richtext_phh9cp"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_ixHr6q": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_t4JVCX": {
+          "type": "heading",
+          "settings": {
+            "text": "Form. Fokus. Fortschritt.",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t4JVCX"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Mens_Seamless_Slim_Fit_Bodysuit_Shapewear_Compression_Vest_Shapers_-_Buy_Slim_Shapewear_compression_Vest_men_Padded_Boxer_Shapewear_mens_Body_Shaper_compression_Shapers_body_Shaping_V.gif",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 62
+      }
+    },
+    "rich_text_PKkmQF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7bh6ph": {
+          "type": "heading",
+          "settings": {
+            "text": "KUNDENBEWÄHRTE ERGEBNISSE",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_6U3AYe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ul><li><strong>97% sahen in jedem Outfit und bei jeder Gelegenheit stärker sculptiert, definiert und fit aus.</strong></li><li><strong>92% fühlten sich attraktiver beim Dating, im Büro und beim Training.</strong></li><li><strong>89% gaben an, dass sie so fit aussahen, dass sie sich inspiriert fühlten, ihre Workouts zu intensivieren.</strong></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7bh6ph",
+        "richtext_6U3AYe"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "scrolling_text_kiXPAB": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Forme sofort deine Silhouette mit der SKULPTBODY™ CORE 3.0 – Fühle dich den ganzen Tag selbstbewusst!",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 9,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
     "1745160968da6c3447": {
       "type": "apps",
       "blocks": {
@@ -362,37 +462,6 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
-    },
-    "1745187015abf489a9": {
-      "type": "apps",
-      "blocks": {
-        "doran_product_reviews_product_widget_t373Aa": {
-          "type": "shopify://apps/doran-product-reviews/blocks/product-widget/ca90c3ee-bc39-4c25-90cd-fdf0519c6d11",
-          "settings": {
-            "topPadding": 36,
-            "bottomPadding": 36,
-            "is_hide_if_no_reviews": false,
-            "is_use_shopify_font": false,
-            "shopify_font": "helvetica_n4"
-          }
-        }
-      },
-      "block_order": [
-        "doran_product_reviews_product_widget_t373Aa"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
     }
   },
   "order": [
@@ -401,9 +470,12 @@
     "accordion_content_6GmGVN",
     "impact_text_iJ8K3C",
     "image_with_text_overlay_PeJJNH",
+    "rich_text_B89PHt",
+    "image_with_text_overlay_ixHr6q",
+    "rich_text_PKkmQF",
+    "scrolling_text_kiXPAB",
     "1745160968da6c3447",
     "text_with_icons_nc3cGr",
-    "related-products",
-    "1745187015abf489a9"
+    "related-products"
   ]
 }
