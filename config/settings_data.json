@@ -60,6 +60,18 @@
         "type": "shopify://apps/gsc-countdown-timer/blocks/countdown-bar/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
         "disabled": false,
         "settings": {}
+      },
+      "13766566558402285670": {
+        "type": "shopify://apps/doran-product-reviews/blocks/app-embed/ca90c3ee-bc39-4c25-90cd-fdf0519c6d11",
+        "disabled": false,
+        "settings": {
+          "isJSONLD": true,
+          "isPopup": false,
+          "isPop": false,
+          "customCSS": "",
+          "is_use_shopify_font": false,
+          "pop_shopify_font": "helvetica_n4"
+        }
       }
     }
   },
