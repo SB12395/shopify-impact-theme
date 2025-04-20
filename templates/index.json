@@ -68,7 +68,7 @@
         "image_qQkDYx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Apr_20_2025_04_00_28_PM.png",
+            "image": "shopify://shop_images/BLACK_VEST.png",
             "mobile_image": "shopify://shop_images/ChatGPT_Image_Apr_20_2025_03_31_09_PM.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
@@ -333,6 +333,12 @@
             "size_chart_page": ""
           }
         },
+        "moon_bundle_app_block_79XGAy": {
+          "type": "shopify://apps/moon-bundle/blocks/app-block/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
+          "settings": {
+            "moonbundle_selected_product": "{{section.settings.product}}"
+          }
+        },
         "quantity-selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -356,6 +362,7 @@
         "separator",
         "description",
         "variant-picker",
+        "moon_bundle_app_block_79XGAy",
         "quantity-selector",
         "buy-buttons"
       ],
