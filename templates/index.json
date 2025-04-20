@@ -16,14 +16,14 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_Apr_20_2025_04_00_28_PM.png",
-            "mobile_image": "shopify://shop_images/ChatGPT_Image_Apr_20_2025_04_00_28_PM.png",
+            "mobile_image": "shopify://shop_images/ChatGPT_Image_Apr_20_2025_04_00_28_PM_ba66d122-b53c-4414-bf9b-16dfc1ebc489.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "FÜHL DICH GUT, SIEH GROßARTIG AUS.",
-            "heading_tag": "h2",
-            "button_text": "JETZT EINKAUFEN",
+            "title": "Fühl dich gut, sieh großartig aus.",
+            "heading_tag": "h1",
+            "button_text": "Jetzt einkaufen",
             "button_link": "shopify://products/skulptbody™-core-3-0",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
@@ -69,6 +69,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_Apr_20_2025_04_00_28_PM.png",
+            "mobile_image": "shopify://shop_images/ChatGPT_Image_Apr_20_2025_03_31_09_PM.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -102,20 +103,25 @@
         "background_gradient": ""
       }
     },
-    "custom_liquid_BBwzpL": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "impact-text": {
       "type": "impact-text",
+      "blocks": {
+        "item_dw7kA4": {
+          "type": "item",
+          "settings": {
+            "title": "100.000",
+            "subheading": "VERTRAUEN VON ÜBER 100.000 KUNDEN",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_dw7kA4"
+      ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -289,30 +295,22 @@
     "featured-product": {
       "type": "featured-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
           }
         },
-        "badges": {
-          "type": "badges",
-          "settings": {}
+        "judge_me_reviews_preview_badge_homepage_N4cX4t": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "product": "skulptbody™-core-3-0"
+          }
         },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
           }
         },
         "separator": {
@@ -352,11 +350,9 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
-        "badges",
+        "judge_me_reviews_preview_badge_homepage_N4cX4t",
         "price",
-        "rating",
         "separator",
         "description",
         "variant-picker",
@@ -386,7 +382,6 @@
     "slideshow",
     "custom_liquid_RgkGWY",
     "slideshow_rYhxEq",
-    "custom_liquid_BBwzpL",
     "impact-text",
     "image-with-text-overlay",
     "press",
