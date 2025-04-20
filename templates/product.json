@@ -47,14 +47,6 @@
           "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
           "settings": {}
         },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {}
-        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -72,8 +64,6 @@
         "variant_picker",
         "buy_buttons_jBPgBN",
         "conversion_bear_trust_badges_widget_tEG6JT",
-        "badges",
-        "payment_terms",
         "separator",
         "description"
       ],
@@ -93,6 +83,134 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "multiple_images_with_text_mjkBar": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_RrBk9f": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_RrBk9f"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "1745160968da6c3447": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_JJYKXH": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_JJYKXH"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "text_with_icons_nc3cGr": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_8ykLGH": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-star",
+            "mobile_icon_width": 40,
+            "icon_width": 52,
+            "icon_background_type": "none",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "#ffffff",
+            "title": "60 TAGE GELD-ZURÜCK-GARANTIE",
+            "content": "<p>Wenn du mit deinem Kauf innerhalb von 60 Tagen nicht zufrieden bist, erstatten wir dir den vollen Betrag zurück.<br/><br/></p>"
+          }
+        },
+        "item_EyKCWE": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 40,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#ffffff",
+            "title": "KUNDENDIENST",
+            "content": "<p><br/>Wir sind von Montag bis Freitag für dich da und beantworten gerne all deine Fragen.<br/><br/></p>"
+          }
+        },
+        "item_xKVn33": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 40,
+            "icon_width": 52,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#ffffff",
+            "title": "SICHERE ZAHLUNG",
+            "content": "<p>Deine Zahlungsinformationen werden sicher und vertraulich verarbeitet.<br/><br/></p>"
+          }
+        },
+        "item_qPRe3y": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 40,
+            "icon_width": 52,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#ffffff",
+            "title": "KONTAKT",
+            "content": "<p>Du möchtest uns kontaktieren? Schreib uns einfach eine E-Mail an [EMAIL ADDRESS]<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_8ykLGH",
+        "item_EyKCWE",
+        "item_xKVn33",
+        "item_qPRe3y"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
       }
     },
     "related-products": {
@@ -120,6 +238,9 @@
   },
   "order": [
     "main",
+    "multiple_images_with_text_mjkBar",
+    "1745160968da6c3447",
+    "text_with_icons_nc3cGr",
     "related-products"
   ]
 }
