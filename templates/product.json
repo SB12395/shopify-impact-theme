@@ -47,10 +47,6 @@
           "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
           "settings": {}
         },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -64,16 +60,15 @@
         "variant_picker",
         "buy_buttons_jBPgBN",
         "conversion_bear_trust_badges_widget_tEG6JT",
-        "separator",
         "description"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 35,
         "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "contained",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_carousel_control": "free_scroll",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
@@ -88,7 +83,7 @@
     "image_with_text_overlay_jGKYcD": {
       "type": "image-with-text-overlay",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
@@ -101,68 +96,61 @@
         "overlay_opacity": 0
       }
     },
-    "tabs_U8krLb": {
-      "type": "tabs",
+    "accordion_content_6GmGVN": {
+      "type": "accordion-content",
       "blocks": {
-        "tab_hfVGfb": {
-          "type": "tab",
+        "item_N3eUPn": {
+          "type": "item",
           "settings": {
             "title": "WIE FUNKTIONIERT DAS SKULPTBODY™ CORE 3.0 ?",
-            "content": "<p>Unser Kompressionshemd formt gezielt den Oberkörper, indem es Druck auf Bauch, Brust und Rücken ausübt. Es glättet ungewollte Konturen und unterstützt gleichzeitig eine aufrechte Haltung.<br/><br/></p>",
-            "page": ""
+            "content": "<p>Unser Kompressionshemd formt gezielt den Oberkörper, indem es Druck auf Bauch, Brust und Rücken ausübt. Es glättet ungewollte Konturen und unterstützt gleichzeitig eine aufrechte Haltung.<br/></p>"
           }
         },
-        "tab_pGTYmq": {
-          "type": "tab",
+        "item_8pzJgF": {
+          "type": "item",
           "settings": {
             "title": "WELCHE VORTEILE BIETET ES?",
-            "content": "<ul><li>Kaschiert sofort Fettpolster und Unebenheiten</li><li>Verbessert die Haltung durch Rückensupport</li><li>Bequem unter der Kleidung zu tragen</li><li>Ideal für Alltag, Arbeit oder Training<br/><br/><br/><br/></li></ul>",
-            "page": ""
+            "content": "<ul><li>Kaschiert sofort Fettpolster und Unebenheiten</li><li>Verbessert die Haltung durch Rückensupport</li><li>Bequem unter der Kleidung zu tragen</li><li>Ideal für Alltag, Arbeit oder Training</li></ul>"
           }
         },
-        "tab_CYdY6Q": {
-          "type": "tab",
+        "item_qJLwkt": {
+          "type": "item",
           "settings": {
             "title": "AUS WELCHEM MATERIAL BESTEHT ES?",
-            "content": "<p>Das SKULPTBODY™ CORE 3.0 besteht aus einer hochwertigen Mischung aus Nylon und Elasthan – atmungsaktiv, langlebig und elastisch genug für ganztägigen Komfort.<br/><br/></p>",
-            "page": ""
+            "content": "<p>Das SKULPTBODY™ CORE 3.0 besteht aus einer hochwertigen Mischung aus Nylon und Elasthan – atmungsaktiv, langlebig und elastisch genug für ganztägigen Komfort.</p>"
           }
         },
-        "tab_fyRgz9": {
-          "type": "tab",
+        "item_PbxnrK": {
+          "type": "item",
           "settings": {
             "title": "FÄLLT DIE GRÖSSE NORMAL AUS?",
-            "content": "<p>Wir empfehlen, deine normale Größe zu wählen. Wenn du zwischen zwei Größen liegst oder eine besonders enge Kompression wünschst, wähle die kleinere Größe. Eine Größentabelle findest du weiter unten.<br/><br/></p>",
-            "page": ""
-          }
-        },
-        "tab_wACWgD": {
-          "type": "tab",
-          "settings": {
-            "title": "KANN ICH ES UNTER DER KLEIDUNG TRAGEN?",
-            "content": "<p>Ja! Das Design ist diskret und unsichtbar unter den meisten T-Shirts, Hemden oder Pullovern. Niemand wird merken, dass du es trägst.</p>",
-            "page": ""
+            "content": "<p>Wir empfehlen, deine normale Größe zu wählen. Wenn du zwischen zwei Größen liegst oder eine besonders enge Kompression wünschst, wähle die kleinere Größe. Eine Größentabelle findest du weiter unten.</p>"
           }
         }
       },
       "block_order": [
-        "tab_hfVGfb",
-        "tab_pGTYmq",
-        "tab_CYdY6Q",
-        "tab_fyRgz9",
-        "tab_wACWgD"
+        "item_N3eUPn",
+        "item_8pzJgF",
+        "item_qJLwkt",
+        "item_PbxnrK"
       ],
       "settings": {
-        "full_width": false,
-        "content_size": "medium",
+        "full_width": true,
         "subheading": "",
         "title": "WAS MACHT SKULPTBODY™ EINZIGARTIG?",
-        "first_tab_open": false,
+        "content": "<p>Erfahren Sie, wie unsere Kompressionstechnologie funktioniert und warum Tausende täglich auf SKULPTBODY™ vertrauen.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": ""
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     },
     "image_with_text_overlay_PeJJNH": {
@@ -198,7 +186,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "md",
-        "image": "shopify://shop_images/Thiscompressionshirtworks-ezgif.com-optimize_1.gif",
+        "image": "shopify://shop_images/04201-ezgif.com-optimize.gif",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -331,7 +319,7 @@
   "order": [
     "main",
     "image_with_text_overlay_jGKYcD",
-    "tabs_U8krLb",
+    "accordion_content_6GmGVN",
     "image_with_text_overlay_PeJJNH",
     "1745160968da6c3447",
     "text_with_icons_nc3cGr",
