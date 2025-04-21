@@ -14,13 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": true
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
@@ -28,11 +21,18 @@
             "content": "<p>Bei SKULPTBODY™ geht es darum, dir zu mehr Selbstbewusstsein zu verhelfen und das Beste aus dir herauszuholen. Unsere SKULPTBODY™ CORE 3.0 Kompressionsweste ist darauf ausgelegt, deine natürliche Form zu formen, zu stützen und zu verbessern – für mehr Komfort und Selbstvertrauen im Alltag.</p>",
             "enable_follow_on_shop": true
           }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
         }
       },
       "block_order": [
-        "links",
-        "text"
+        "text",
+        "links"
       ],
       "settings": {
         "show_social_media": false,
