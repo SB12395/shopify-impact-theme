@@ -14,9 +14,30 @@
       "settings": {
         "content_width": "60ch"
       }
+    },
+    "contact_JJUCMK": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "Kontaktieren Sie uns",
+        "title": "Haben Sie Fragen?",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "contact_JJUCMK"
   ]
 }
